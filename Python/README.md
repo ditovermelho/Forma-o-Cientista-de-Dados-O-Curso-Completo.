@@ -1,6 +1,6 @@
 # Codificação em Python
 __Formação Cientista de Dados: O Curso Completo__
-Esta pasta contem todo conteúdo desenvolvido em python
+Esta pasta contem todo conteúdo desenvolvido pelo Professor em python, alguns arquivo foram alterados/editados por mim.
 
 ## Comandos de inicio de projeto 
 * Criando maquina virtual:
