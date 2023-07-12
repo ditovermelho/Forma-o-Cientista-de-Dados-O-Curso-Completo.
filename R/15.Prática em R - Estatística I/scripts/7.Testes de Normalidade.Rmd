@@ -1,4 +1,4 @@
----
+
 Formação Cientista de Dados - Prof. Fernando Amaral
 Amostragem Simples
 ---

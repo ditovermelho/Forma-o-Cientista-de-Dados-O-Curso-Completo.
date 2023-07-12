@@ -5,7 +5,7 @@ Anova
 Anova
 Carrega dados
 ```{r}
-tratamento = read.csv("anova.csv", sep=";")
+tratamento = read.csv("../dados/anova.csv", sep=";")
 tratamento
 ```
 Visulizamos os distribuição dos remedios por horas

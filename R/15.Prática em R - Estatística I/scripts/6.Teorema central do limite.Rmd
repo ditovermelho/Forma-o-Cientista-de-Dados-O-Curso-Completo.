@@ -8,7 +8,6 @@ Teorema Central do Limite
 options(warn=-1)
 #install.packages("semTools")
 library(semTools)
-
 ```
 Inicializa um vetor 
 ```{r}
