@@ -4,7 +4,7 @@ Regressão Logistica
 ---
 Carga de dados
 ```{r}
-eleicao = read.csv("Eleicao.csv",sep=';',header=T)
+eleicao = read.csv("../dados/Eleicao.csv",sep=';',header=T)
 eleicao
 ```
 Gráfico e visualização
@@ -42,7 +42,7 @@ taxaacerto
 ```
 Novos candidatos
 ```{r}
-prevereleicao = read.csv("NovosCandidatos.csv",sep=';',header=T)
+prevereleicao = read.csv("../dados/NovosCandidatos.csv",sep=';',header=T)
 prevereleicao
 ```
 Previsão

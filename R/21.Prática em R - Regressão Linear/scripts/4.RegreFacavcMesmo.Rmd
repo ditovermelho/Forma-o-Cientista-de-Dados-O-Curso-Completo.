@@ -4,7 +4,7 @@ Regressão Linear - Faça você mesmo
 ---
 Importando os Dados
 ```{r}
-dados = read.csv("slr12.csv",sep = ";")
+dados = read.csv("../dados/slr12.csv",sep = ";")
 dados
 ```
 Modelo
