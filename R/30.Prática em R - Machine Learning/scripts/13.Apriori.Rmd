@@ -11,7 +11,7 @@ library(arulesViz)
 ```
 Importa as transações
 ```{r}
-transacoes = read.transactions("transacoes.txt",format="basket",sep=",")
+transacoes = read.transactions("../dados/transacoes.txt",format="basket",sep=",")
 transacoes 
 inspect(transacoes)
 image(transacoes)
@@ -31,6 +31,6 @@ plot(regras, method="matrix3D")
 ```
 Salvar as regras em disco
 ```{r}
-write.csv(DATAFRAME(regras),"regras.csv")
+write.csv(DATAFRAME(regras),"../dados/regras.csv")
 ```
 

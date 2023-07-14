@@ -9,7 +9,7 @@ library(e1071)
 ```
 Dados de Crédito de Banco Alemão
 ```{r}
-credito = read.csv("Credit.csv")
+credito = read.csv("../dados/Credit.csv")
 head(credito)
 dim(credito)
 ```

@@ -8,7 +8,7 @@ Seleção de Atributos
 #install.packages("randomForest")
 library(e1071)
 library(randomForest)
-credito = read.csv("Credit.csv")
+credito = read.csv("../dados/Credit.csv")
 credito$class = as.factor(credito$class)
 ```
 Dividios os dados em treino e teste

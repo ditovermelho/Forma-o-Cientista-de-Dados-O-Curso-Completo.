@@ -9,7 +9,7 @@ library(rpart)
 ```
 Carrega dados de credito e separa em treino e teste
 ```{r}
-credito = read.csv("Credit.csv")
+credito = read.csv("../dados/Credit.csv")
 credito
 amostra = sample(2,1000,replace=T, prob=c(0.7,0.3))
 creditotreino = credito[amostra==1,]
