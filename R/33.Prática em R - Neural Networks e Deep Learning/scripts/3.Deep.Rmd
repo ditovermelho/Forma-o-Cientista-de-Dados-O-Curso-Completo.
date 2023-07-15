@@ -11,14 +11,14 @@ Importamos o arquivo para visualização
 ```{r}
 #uso interno
 options(warn=-1)
-digitos <- read.csv(gzfile("test.csv.gz"), header=F)
+digitos <- read.csv(gzfile("../dados/test.csv.gz"), header=F)
 dim(digitos)
 head(digitos)
 ```
 Visualizamos alguns digitos
 ```{r}
 dig1 = t(matrix(unlist(digitos[20,-785]), nrow = 28, byrow = F))
-dig1 = t(apply(dig, 2, rev))
+dig1 = t(apply(dig1, 2, rev))
 dig1
 digitos[20,785]
 
@@ -42,8 +42,8 @@ image(dig4,col=grey.colors(255))
 Inicialização 
 ```{r}
 h2o.init()
-treino <- h2o.importFile('train.csv.gz')
-teste <- h2o.importFile('test.csv.gz')
+treino <- h2o.importFile('../dados/train.csv.gz')
+teste <- h2o.importFile('../dados/test.csv.gz')
 dim(treino)
 head(treino)
 colnames(treino)

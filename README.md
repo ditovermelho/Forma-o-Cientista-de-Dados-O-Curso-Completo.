@@ -1,5 +1,6 @@
 # Repositório do Curso de Cientista de Dados
-__Formação Cientista de Dados: O Curso Completo__
+__[Formação Cientista de Dados: O Curso Completo](https://www.udemy.com/course/cientista-de-dados/)__
+Criado por [Fernando Amaral](https://www.udemy.com/user/fernando-amaral-3/)
 
 __Objetivos:__
 1. Aprender a aplicar todos os principais conceitos e técnicas para se qualificar e atuar como um Cientista de Dados.

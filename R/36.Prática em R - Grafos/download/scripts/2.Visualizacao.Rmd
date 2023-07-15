@@ -38,7 +38,7 @@ plot(grafo7, vertex.size=vertex_attr(grafo7)$Peso, edge.width=edge_attr(grafo7)$
 Grafo interativo
 ```{r}
 #grafo de relacionamentos
-grafo8 = read_graph("Grafo.graphml", format = c("graphml"))
+grafo8 = read_graph("../dados/Grafo.graphml", format = c("graphml"))
 tkplot(grafo8)
 ```
 

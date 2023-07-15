@@ -10,7 +10,7 @@ library(igraph)
 Métricas
 ```{r}
 #carregamos um grafo de relacionamtos 53 vertices e 179 arestas
-grafo8 = read_graph("Grafo.graphml", format = c("graphml"))
+grafo8 = read_graph("../dados/Grafo.graphml", format = c("graphml"))
 #53 vertices e 179 arestas
 grafo8
 plot(grafo8)

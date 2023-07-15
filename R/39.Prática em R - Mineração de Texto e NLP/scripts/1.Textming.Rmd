@@ -4,7 +4,10 @@ Mineração de Texto
 ---
 ```{r}
 #install.packages("tm")
+#Package ‘textreadr’ was removed from the CRAN repository.
 #install.packages("textreadr")
+#Para Instalar use
+#remotes::install_github("trinker/textreadr")
 #install.packages("wordcloud")
 #install.packages("RColorBrewer")
 library(tm)

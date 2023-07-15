@@ -6,7 +6,7 @@ Comunidades e Cliques
 ```{r}
 #install.packages("igraph")
 library(igraph)
-grafo8 = read_graph("Grafo.graphml", format = c("graphml"))
+grafo8 = read_graph("../dados/Grafo.graphml", format = c("graphml"))
 grafo8 = as.undirected(grafo8)
 ```
 Comunidades

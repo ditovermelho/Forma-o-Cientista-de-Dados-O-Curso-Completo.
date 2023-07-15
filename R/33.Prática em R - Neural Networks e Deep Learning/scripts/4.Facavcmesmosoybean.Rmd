@@ -11,7 +11,7 @@ library(randomForest)
 
 ```{r}
 #carrega os dados de exemplo
-soja = read.csv('soybean.csv', stringsAsFactors = T)
+soja = read.csv('../dados/soybean.csv', stringsAsFactors = T)
 soja
 dim(soja)
 #classes
