@@ -1,10 +1,11 @@
 # Repositório do Curso de Cientista de Dados
 __[Formação Cientista de Dados: O Curso Completo](https://www.udemy.com/course/cientista-de-dados/)__
+
 Criado por [Fernando Amaral](https://www.udemy.com/user/fernando-amaral-3/)
 
 __Objetivos:__
 1. Aprender a aplicar todos os principais conceitos e técnicas para se qualificar e atuar como um Cientista de Dados.
-2. exemplos práticos de codificação em R e Python usando dados reais.
+2. Exemplos práticos de codificação em R e Python usando dados reais.
 
 __Conteúdo proposto no Curso:__
 * Criar modelos preditivos com Deep Learning, Neural Networks e Series Temporais
